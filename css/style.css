@@ -1,0 +1,357 @@
+*{
+   box-sizing: border-box;
+}
+body{
+   font-size: 16px;
+   line-height: 28px;
+   font-weight: normal;
+   font-family: 'Manrope', sans-serif;
+   background-color: #ECF9FF;
+}
+h1,h2,h3,h4,h5,h6{
+   color: #060640;
+}
+h1{
+   font-size: 45px;
+   line-height: 65px;
+   font-weight: 700;
+}
+h2{
+   font-size: 45px;
+   line-height: 34px;
+   font-weight: 700;
+}
+h3{
+   font-size: 20px;
+   line-height: 28px;
+}
+ul,ol{
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+p{
+   color: #9090A7;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 28px;
+}
+a{
+   color: #00E5CC;
+   text-decoration: none;
+}
+.p-100 {
+   padding: 100px;
+}
+.sky-blue, .banner-header .nav-bar-top .nav-link:hover, .banner-header .nav-bar-top .nav-link.active{
+ color: #00E5CC;
+}
+/* NavBar section start */
+.nav-bar-top{
+   margin-top: 50px;
+   border-radius: 10px;
+   padding: 22px;
+}
+.nav-bar-top .navbar-brand{
+   color: #060640;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 30px;
+}
+.banner-header .nav-bar-top .nav-link{
+   font-size: 14px;
+   color: #828297;
+   line-height: 14px;
+}
+.blue-btn{
+   background-color: #060640;
+   color: white;
+   line-height: 20px;
+   padding: 20px 30px;
+   font-weight: 500;
+}
+.blue-btn:hover{
+   background-color: #060640;
+   color: white;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+   background-color: #060640;
+   color: white;
+}
+.move-right {
+  justify-content: end;
+}
+.log-in{
+   font-size: 14px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+@media only screen and (max-width: 600px) {
+   .navbar-toggler-icon {
+     
+      background-image: url(../images/menu.png);
+   }
+ }
+/* NavBar section END */
+/* ========================================================== */
+/* Banner START */
+.top-banners{
+   margin-top: 30px;
+   margin-bottom: 110;
+}
+.top-banners h1{
+   padding-top:20px ;
+   margin-top: 50px;
+   font-size: 51px;
+   line-height: 65px;
+   font-weight: bold;
+   margin-bottom: 20px ;
+}
+.top-banners p{
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+.banner-btn{
+   display: flex;
+   margin-right: 10px;
+   margin-bottom: 20px;
+}
+.give-space{
+   margin-left: 30px;
+}
+.rating{
+   align-items: center;
+}
+.testimonials{
+   margin-top: 70px;
+   background: white;
+   border-radius: 14px;
+   padding: 23px 21px;
+}
+.quote{
+   display: flex;
+   justify-content: space-between;
+}
+.testimonials p{
+margin-bottom: 5px;
+}
+/* Banner END */
+/* ========================================================== */
+/* How it works Starts- */
+.wo-rk{
+   padding: 110px 135px 64px 135px ;
+
+}
+.top-txt{
+   margin-bottom: 70px;
+}
+/* Cards start */
+.wo-rk .card{
+   border-style: none;
+   border-radius: 14px;
+   height: 100%;
+}
+.wo-rk .card .ic-on {
+   width: 70px;
+   height: 70px;
+   background-color: #ECF9FF;
+   margin: 30px;
+   padding: 15px;
+   border-radius: 10px;
+}
+.wo-rk .card img{
+   width: 40px;
+   height: 40px;
+}
+.wo-rk .card .card-body {
+   padding: 30px;
+}
+.wo-rk .card .card-body h3{
+   font-size: 24px;
+   line-height: 34px;
+}
+.wo-rk .card:hover{
+   background-color: #f3f3f3;
+}
+@media only screen and (max-width: 767px) {
+   .wo-rk .card  {
+      margin-bottom: 15px;
+      height: auto;
+   }
+}
+/* Cards END */
+/* ========================================================== */
+/* How it works END- */
+
+/* Aout us start  */
+.about-us .top-padding{
+   padding-top: 130px;
+}
+.about-us p {
+   margin-bottom: 40px;
+}
+.work-side-icon{
+   display: flex;
+}
+.work-side-icon img{
+   width: 70px;
+   height: 70px;
+   background-color: #ECF9FF;
+   padding: 15px;
+   border-radius: 10px;
+   margin-right: 25px;
+}
+
+.about-us .work-side-icon p{
+   margin-bottom: 30px;
+}
+/* Aout us END  */
+/* ========================================================== */
+/* Popular-packages Start */
+
+.popular-packages .popular-heading  {
+   margin-bottom: 69px;
+   justify-content: space-between;
+   display: flex;
+   align-items: center;
+}
+.popular-packages .popular-heading .chevron{
+   background-color: white;
+   padding: 8px;
+   border-radius: 8px;
+}
+.popular-packages .popular-heading .chevron .ic-on{
+   padding: 13px;
+   border-radius: 8px;
+   color: #060640;
+}
+.popular-packages .popular-heading .chevron .ic-on:hover{
+   background-color: #00E5CC;
+   color: white;
+}
+
+.popular-packages .popular-heading ,button, input, optgroup, select, textarea {
+   color: white;
+}
+.popular-packages .item-box{
+   border-radius: 14px;
+   border: 1px solid #ffffff;
+   padding: 17px 19px;
+}
+
+.popular-packages .item-box .txt-box{
+   padding-top: 17px;
+
+}
+
+.popular-packages .txt-box h3{
+   color: black;
+}
+.popular-packages .txt-box .foot-er{
+   justify-content: space-between;
+ 
+}
+.popular-packages .txt-box .foot-er .footer-image{
+   height: 36px;
+}
+.popular-packages .txt-box .foot-er .footer-image p{
+
+   margin-left: 7px;
+}
+
+.popular-packages .item-box:hover{
+   background: white;
+}
+/* Popular-packages END */
+/* ========================================================== */
+/*  Subscribe newsletter Start */
+.newsletter{
+   padding-bottom: 100px;
+}
+.newsletter .sub-image {
+   position: absolute;
+   bottom: 0;
+   right: 55px;
+}
+.newsletter .cont-box{
+   border-radius: 16px;
+   background: #ECFDFF;
+   padding: 60px;
+}
+.form-control {
+   padding: 30px;
+}
+
+.newsletter .btn {
+   position: absolute;
+   right: 22px;
+   bottom: 12px;
+}
+@media (max-width:767px) {
+   .newsletter .sub-image {
+       position: unset;
+
+
+   }
+}
+
+/*  Subscribe newsletter END */
+/* ========================================================== */
+/* Footer Start */
+footer {
+   background-color: #060640;
+   padding-top: 80px;
+   padding-bottom: 50px;
+ }
+ footer .footer-row{
+   justify-content: space-between;
+ }
+ 
+ footer h5 {
+   font-size: 18px;
+   color: white;
+ }
+ 
+ footer li a {
+   font-size: 14px;
+   color: #828297;
+ }
+ footer li a:hover {
+ 
+   color: #00E5CC;
+ }
+ 
+ 
+ footer .fa-brands {
+   margin-left: 5px;
+   display: flex;
+ }
+ .footer-bottom {
+   background-color: #000020;
+   padding: 27px 136px;
+   font-size: 16px;
+
+ }
+ footer .footer-row .second-row{
+   margin-top: 25px;
+ }
+ 
+ footer a {
+   color: white;
+ }
+ .footer-bottom .footer-row{
+   justify-content: space-between;
+ }
+ .footer-bottom .footer-row p{
+   color: #ffffff;
+   margin: 0;
+ }
+ 
+ @media screen and (max-width:600px) {
+ footer .footer-row{
+     justify-content: unset;
+   }
+   
+ }
+ /* Footer END */
