@@ -117,7 +117,7 @@ a{
    margin-right: 10px;
    margin-bottom: 20px;
 }
-.give-space{
+.m-30{
    margin-left: 30px;
 }
 .rating{
@@ -140,7 +140,7 @@ margin-bottom: 5px;
 /* ========================================================== */
 /* How it works Starts- */
 .wo-rk{
-   padding: 110px 135px 64px 135px ;
+   padding: 110px 50px 64px 50px ;
 
 }
 .top-txt{
@@ -173,6 +173,7 @@ margin-bottom: 5px;
 }
 .wo-rk .card:hover{
    background-color: #f3f3f3;
+   cursor: pointer;
 }
 @media only screen and (max-width: 767px) {
    .wo-rk .card  {
@@ -209,7 +210,9 @@ margin-bottom: 5px;
 /* Aout us END  */
 /* ========================================================== */
 /* Popular-packages Start */
-
+.popular-packages{
+   padding: 100px 50px;
+}
 .popular-packages .popular-heading  {
    margin-bottom: 69px;
    justify-content: space-between;
@@ -220,6 +223,8 @@ margin-bottom: 5px;
    background-color: white;
    padding: 8px;
    border-radius: 8px;
+   display: flex; 
+   align-items: center;
 }
 .popular-packages .popular-heading .chevron .ic-on{
    padding: 13px;
@@ -263,6 +268,8 @@ margin-bottom: 5px;
 .popular-packages .item-box:hover{
    background: white;
 }
+
+
 /* Popular-packages END */
 /* ========================================================== */
 /*  Subscribe newsletter Start */
